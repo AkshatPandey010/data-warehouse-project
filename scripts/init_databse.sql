@@ -23,14 +23,14 @@ BEGIN
 END
 GO
 
--- CREATE THE 'DataWarehouse' DATABASE
+-- Creating the 'DataWarehouse' database
 CREATE DATABASE DataWarehouse;
 
 USE DataWarehouse;
 
 -- CREATE SCHEMAS 
 CREATE SCHEMA bronze;
-GO -- 'GO separate batches when working with multiple SQL statement
+GO 
   
 CREATE SCHEMA silver;
 GO
